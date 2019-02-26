@@ -1,4 +1,4 @@
-<?php header("Content-type: text/html; charset=UTF-8"); ?>
+<?phpphp header("Content-type: text/html; charset=UTF-8"); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
 <head>
@@ -50,7 +50,7 @@
     </style>
 
 </head>
-<?
+<?php
 $s = $_POST['s'];
 $fromto = $_POST['fromto'];
 
@@ -84,7 +84,7 @@ if ($fromto=="E2W"){
         <input type="radio" name="fromto" value="E2W" checked>Excel Â» Wiki<br>
         <input type="radio" name="fromto" value="W2E">Wiki Â» Excel<br>
         <INPUT TYPE=SUBMIT VALUE="Convert!"><br/>
-        <textarea id="txt1" name="s" wrap="off" cols=80 rows=50 style="width:800; height:450"><? echo $s; ?></textarea>
+        <textarea id="txt1" name="s" wrap="off" cols=80 rows=50 style="width:800; height:450"><?php echo $s; ?></textarea>
     </form>
     <span style="font-size:80%">
 <strong>Version 0.1 : </strong>
@@ -94,7 +94,7 @@ if ($fromto=="E2W"){
 </ul>
 </span>
 </center>
-</body></html><?php header("Content-type: text/html; charset=UTF-8"); ?>
+</body></html><?phpphp header("Content-type: text/html; charset=UTF-8"); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
 <head>
@@ -146,7 +146,7 @@ if ($fromto=="E2W"){
     </style>
 
 </head>
-<?
+<?php
 $s = $_POST['s'];
 $fromto = $_POST['fromto'];
 
@@ -180,7 +180,7 @@ if ($fromto=="E2W"){
         <input type="radio" name="fromto" value="E2W" checked>Excel Â» Wiki<br>
         <input type="radio" name="fromto" value="W2E">Wiki Â» Excel<br>
         <INPUT TYPE=SUBMIT VALUE="Convert!"><br/>
-        <textarea id="txt1" name="s" wrap="off" cols=80 rows=50 style="width:800; height:450"><? echo $s; ?></textarea>
+        <textarea id="txt1" name="s" wrap="off" cols=80 rows=50 style="width:800; height:450"><?php echo $s; ?></textarea>
     </form>
     <span style="font-size:80%">
 <strong>Version 0.1 : </strong>
@@ -190,4 +190,4 @@ if ($fromto=="E2W"){
 </ul>
 </span>
 </center>
-</body></html>
+</body></html>K
